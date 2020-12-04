@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  background-color:rgb(229, 223, 216);
+}
+
+.main-img {
+  float: left;
+  margin-right: 15px;
+
+}
+
+body {
+  font-family: sans-serif;
+  color: black;
+  margin: 0;
+}
+/* 헤더 */
+.header {
+  height: 300px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+article{
+  box-sizing: content-box;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  padding: 30px;
+  float: left;
+}
+
+article section{
+  box-sizing: content-box;
+  clear: both;
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+  padding: 30px;
+  text-align: left;
+ 
+}
+
+
+
+h2 {
+  text-align: left;
+}
+
+h3 {
+  font-size: 13px;
+  color: black;
+}
+
+.category {
+  clear: both;
+  font-size: 10px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.explorer {
+  clear: both;
+  border: 2px solid black;
+  width: 100px;
+  height: 50px;
+  border-radius: 70px;
+  text-align: center;
+  font-size: 13px;
+  padding: 3px;
+  
+
+
+}
+
+p {
+  text-align: center;
+  padding: 9;
+}
+
+.wrapper {
+  margin: 10px;
+  padding: 30px;
+  width: 750px;
+  height: 300px;
+  float: left;
+  text-align: center;
+}
+
+
+.atmosphere,
+.menu,
+.location {
+  box-sizing: border-box;
+  width: auto;
+  padding: 20;
+}
+
+
+.navbar {
+
+  justify-content: center;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/* 네비게이션 바 가상선택자 */
+.navbar a {
+  color: #333;
+  padding: 20px;
+  margin-top: 5px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* 커서 올려놨을때 색변화 */
+.navbar a:hover {
+  background-color :#333;
+  color: #fff;
+}
+
+
+img {
+  width: auto; 
+  max-height: auto;
+  margin: auto;
+}
+
+.main-container {
+  height: 100px;
+  width: 1000px;
+}
+
+.grid-container {
+  float: left;
+  height: 100px;
+  width: 150px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.footer {
+ 
+  padding: 20px;
+  text-align: center; 
+}
+
+
